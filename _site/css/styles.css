@@ -36,6 +36,24 @@
 .button-pagination {
   width: 3em; }
 
+.warning {
+  color: red; }
+  .warning p {
+    font-size: 1.5em; }
+  .warning .eng, .warning .deu {
+    padding: 1em 5%; }
+
+@media screen and (min-width: 47em) {
+  .eng {
+    float: left;
+    width: 40%; }
+
+  .deu {
+    float: right;
+    width: 40%; }
+
+  .deu, .eng {
+    text-align: left; } }
 * {
   margin: 0;
   padding: 0; }
