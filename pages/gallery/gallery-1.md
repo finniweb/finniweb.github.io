@@ -1,11 +1,16 @@
 ---
-title: the first gallery page
-layout: default
---- 
+layout: gallery
+title: gallery
+nav: top, bottom
+site-id: 3
+permalink: /gallery/
+---
 
 <div class="galleries page">
 	
 	{% for gallery in site.data.galleries %}
+	  	
+	  	{% if gallery.id >= 3  %}
 	  	
 	  	<div class="album">
 		    <header class="header-page">
@@ -22,8 +27,22 @@ layout: default
 			    {% endfor %}
 			   </div> 
 		   </div>
+		  {% endif %}
 	{% endfor %}
 	
 </div>
 
+<div class="pagination">
+	
 
+		<div class="left">
+			<span class="button button-disabled button-pagination">back</span>
+		</div>
+
+
+		<div class="right">
+			<a href="{{ site.baseurl }}/gallery-2" class="button-pagination button">next</a>
+		</div>
+
+
+</div>
