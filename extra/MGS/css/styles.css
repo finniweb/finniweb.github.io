@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0; }
+  * li {
+    list-style-type: none;
+    display: inline; }
+  * a:hover {
+    color: blue;
+    cursor: pointer; }
+
+header {
+  font-family: Exo;
+  height: 120px;
+  background-image: -webkit-gradient(radial, left bottom, 0, left bottom, 996, color-stop(0, #F6FF2D), color-stop(1, #ED6F25)); }
+  header .headline {
+    height: 80%;
+    border-bottom: 1px solid #999; }
+    header .headline .logo {
+      background: no-repeat center;
+      background-color: #f7c13b;
+      background-image: url(/assets/logo.png);
+      background-size: contain;
+      width: 20%;
+      height: 115%;
+      margin-left: 5%;
+      float: left; }
+    header .headline .title {
+      font-size: 1.6em;
+      margin-left: 10%;
+      width: 150px;
+      text-indent: -60px;
+      margin-top: 20px;
+      float: left; }
+    header .headline .navbar {
+      width: 100%;
+      text-align: center;
+      padding-top: 65px; }
+      header .headline .navbar li {
+        margin: 0 1em; }
+
+.page-nav {
+  font-family: Exo;
+  background-image: -webkit-gradient(radial, left bottom, 0, left bottom, 996, color-stop(0, #F6FF2D), color-stop(1, #ED6F25));
+  height: 30px;
+  padding-top: 12px;
+  text-align: center;
+  font-size: 0.85em;
+  width: 100%;
+  color: black; }
+  .page-nav li {
+    margin: 0 2em; }
+
+.stream {
+  box-shadow: inset 0 0 10px #000000, 0 0 0 0;
+  background-image: url(/assets/stream.JPG);
+  height: 48vh;
+  min-height: 380px;
+  background-size: cover; }
+
+.block1 {
+  background: #EDEBE0;
+  height: 350px; }
+
+.content {
+  font-size: 0.7em;
+  margin: auto;
+  padding-top: 2em;
+  width: 93%;
+  font-family: avenir; }
+  .content h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.4em; }
+  .content h2 {
+    font-size: 1.3em;
+    font-weight: normal;
+    margin-bottom: 0.2em; }
+  .content p {
+    margin: 1em 0; }
+
+.aside {
+  font-size: 1em;
+  width: 35%;
+  float: left;
+  margin: 0 2.5%; }
+
+.main {
+  float: left;
+  width: 55%;
+  margin: 0 2.5%; }
+
+.quote {
+  font-size: 1.7em; }
+  .quote .signed {
+    font-style: italic;
+    font-size: 0.75em;
+    text-align: right; }
+
+.block2 {
+  clear: both;
+  background: white;
+  height: 300px; }
+  .block2 .content h1 {
+    margin-bottom: 4em; }
+  .block2 .content .offers {
+    text-align: center; }
+  .block2 .content .banner {
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 30px;
+    height: 50px;
+    width: 190px;
+    padding-top: 20px;
+    background: #e5b336;
+    color: white;
+    font-weight: bold;
+    font-family: arial; }
+
+.block3 {
+  background: #c0e9ee;
+  height: 400px; }
+
+.block4 {
+  background: #4a5e70;
+  height: 600px; }
+
+footer {
+  height: 600px;
+  position: relative;
+  background-image: url(/assets/logo.png);
+  background-size: auto 600px;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden; }
+  footer .sky {
+    height: 1800px;
+    width: 100%;
+    background-image: url(/assets/sky4.png);
+    background-position: center;
+    background-repeat: repeat;
+    position: absolute;
+    top: 1300px; }
+  footer .sun {
+    height: 100px;
+    width: 100%;
+    background-image: url(/assets/sun.gif);
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -740px; }
