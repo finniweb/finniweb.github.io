@@ -1,1 +1,0 @@
-$(window).scroll(function(){var s=$(this).scrollTop();$(".sky").css({transform:"translate(0px, -"+s/.9+"px)"}),$(".sun").css({transform:"translate(0px, "+s/1.5+"px)"})});
